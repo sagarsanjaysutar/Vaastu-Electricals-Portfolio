@@ -1,0 +1,36 @@
+body
+{
+	font-family:impact;
+	font-size: 50px;
+	color:black;
+}
+.container
+{
+	background-color: aqua;
+	padding: 50px;
+}
+.custom_jumbotron_a
+{
+	background-color: red;
+}
+.btn1
+{
+	background-color: black;
+	color:white;
+
+}
+.custom_jumbotron_b
+{
+	background-color: yellow;
+}
+.custom_table_a
+{
+	background-color: green;	
+	
+}
+.table-striped
+{
+	background-color: aqua;
+}
+
+.table 

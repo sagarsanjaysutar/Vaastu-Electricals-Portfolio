@@ -1,0 +1,172 @@
+.brand-img {
+    height: 55px;
+    width: 150px;
+}
+
+.section-heading {
+    font-size: 2.5em;
+}
+
+/*Section 1*/
+.s1 {
+    height: 100vh;
+    background-image: url("../img/Background/bg.webp");
+    background-position: right;
+}
+
+
+.intro-container {
+    overflow: hidden;
+}
+
+.intro {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 3rem;
+    color: #282828;
+    font-weight: 600;
+
+
+
+
+}
+
+.intro-desc {
+    font-size: 1rem;
+
+}
+
+.highlight {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+
+/*Section 2*/
+.s2 {
+    min-height: 50vh;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.service-card-container {
+    width: 24rem;
+    padding: 0px;
+}
+
+.service-cards {
+    width: 15rem;
+    height: 15rem;
+
+
+}
+
+.service-cards .card-title {
+    font-size: 1em;
+}
+
+.service-desc {
+    display: none;
+}
+
+.service-card .card-img-top {
+    padding: 0px;
+}
+
+.service-cards-svgs {
+
+    width: 18rem;
+    height: 4rem;
+    filter: invert(32%) sepia(56%) saturate(1357%) hue-rotate(279deg) brightness(85%) contrast(98%);
+}
+
+.service {
+    height: 300px;
+    max-width: 100%;
+}
+
+/*Section 3*/
+
+
+
+
+.client-bg {
+    height: 80px;
+    width: 80px;
+}
+
+.client-logo-1,
+.client-logo-2,
+.client-logo-3,
+.client-logo-4,
+.client-logo-5,
+.client-logo-6 {
+    margin: auto;
+    height: 50px;
+    max-width: 50px;
+
+
+
+}
+
+.work-img1 {
+    height: 50vh;
+}
+
+/*Section 4*/
+.s4 {
+
+    height: 60vh;
+}
+
+.company-logo {
+    min-width: 45%;
+}
+
+
+
+.company-logo-container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn {
+    text-align: center;
+}
+
+.interchange {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.whatsapp-icon {
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.google-logo {
+    font-size: 23px;
+    padding: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+.border-lg-right {
+    border: 0px;
+}
+
+.footer {
+
+    font-size: 14px;
+}
