@@ -10,37 +10,29 @@
 /*Section 1*/
 .s1 {
     height: 100vh;
-    background-image: url("../img/Background/bg.webp");
+    background-image: url('../img/Background/bg.webp');
     background-position: right;
 }
-
 
 .intro-container {
     overflow: hidden;
 }
 
 .intro {
-    font-family: 'Raleway',
-        sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 3rem;
     color: #282828;
     font-weight: 600;
-
-
-
-
 }
 
 .intro-desc {
     font-size: 1rem;
-
 }
 
 .highlight {
     background-color: rgba(0, 0, 0, 0);
     color: black;
 }
-
 
 /*Section 2*/
 .s2 {
@@ -59,8 +51,6 @@
 .service-cards {
     width: 15rem;
     height: 15rem;
-
-
 }
 
 .service-cards .card-title {
@@ -76,10 +66,10 @@
 }
 
 .service-cards-svgs {
-
     width: 18rem;
     height: 4rem;
-    filter: invert(32%) sepia(56%) saturate(1357%) hue-rotate(279deg) brightness(85%) contrast(98%);
+    filter: invert(32%) sepia(56%) saturate(1357%) hue-rotate(279deg)
+        brightness(85%) contrast(98%);
 }
 
 .service {
@@ -88,9 +78,6 @@
 }
 
 /*Section 3*/
-
-
-
 
 .client-bg {
     height: 80px;
@@ -106,9 +93,6 @@
     margin: auto;
     height: 50px;
     max-width: 50px;
-
-
-
 }
 
 .work-img1 {
@@ -117,15 +101,12 @@
 
 /*Section 4*/
 .s4 {
-
     height: 60vh;
 }
 
 .company-logo {
     min-width: 45%;
 }
-
-
 
 .company-logo-container {
     margin-top: 10%;
@@ -158,8 +139,6 @@
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;
-
-
 }
 
 .border-lg-right {
@@ -167,6 +146,5 @@
 }
 
 .footer {
-
     font-size: 14px;
 }
