@@ -1,17 +1,11 @@
 import React, { FC, useState } from 'react';
 import BrandImg from '@/assets/img/Logo/Brand-logo/brand.png';
 import Styles from './navbar.module.css';
+import { isMobile } from '@/utils/';
 
 const Navbar: FC = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
-    function getNavDropdownClassNames() {
-        let classNames = [];
-        classNames.push(Styles.overlay);
-        classNames.push(navbarOpen ? Styles.show : undefined);
-        console.log(classNames.toString());
-        return classNames.toString();
-    }
     return (
         <>
             <nav
@@ -38,44 +32,20 @@ const Navbar: FC = () => {
                     </button>
 
                     <div
-                        className={getNavDropdownClassNames()}
-                        style={
-                            navbarOpen
-                                ? {
-                                      //   width: '100vh',
-                                      height: '100vh',
-                                      display: 'flex',
-                                      justifyContent: 'center',
-                                      position: 'absolute',
-                                      top: 0,
-                                      left: 0,
-                                      width: '100vw',
-                                      backgroundColor:
-                                          'rgba(255, 255, 255, 0.98)',
-                                      zIndex: -1,
-                                  }
-                                : {
-                                      display: 'none',
-                                  }
+                        className={
+                            isMobile()
+                                ? `${Styles['overlay']} ${
+                                      navbarOpen
+                                          ? Styles['show'] +
+                                            ' ' +
+                                            Styles['navbar-mobile-dropdown']
+                                          : 'd-none'
+                                  }`
+                                : ''
                         }
                         id="navbarNavDropdown"
                     >
-                        <ul
-                            className="navbar-nav"
-                            style={
-                                navbarOpen
-                                    ? {
-                                          //   width: '100vh',
-                                          height: '100vh',
-                                          display: 'flex',
-                                          justifyContent: 'center',
-                                          position: 'absolute',
-                                      }
-                                    : {
-                                          display: 'none',
-                                      }
-                            }
-                        >
+                        <ul className="navbar-nav">
                             <li className="nav-item ml-lg-2">
                                 <a
                                     className="nav-link active"
