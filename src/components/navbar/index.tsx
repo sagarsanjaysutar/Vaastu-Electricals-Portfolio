@@ -1,7 +1,6 @@
 import React, { FC, useState } from 'react';
 import BrandImg from '@/assets/img/Logo/Brand-logo/brand.png';
 import Styles from './navbar.module.css';
-import { isMobile } from '@/utils/';
 
 const Navbar: FC = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -32,17 +31,13 @@ const Navbar: FC = () => {
                     </button>
 
                     <div
-                        className={
-                            isMobile()
-                                ? `${Styles['overlay']} ${
-                                      navbarOpen
-                                          ? Styles['show'] +
-                                            ' ' +
-                                            Styles['navbar-mobile-dropdown']
-                                          : 'd-none'
-                                  }`
-                                : ''
-                        }
+                        className={`${Styles['overlay']} ${
+                            navbarOpen
+                                ? Styles['show'] +
+                                  ' ' +
+                                  Styles['navbar-mobile-dropdown']
+                                : 'd-none'
+                        }`}
                         id="navbarNavDropdown"
                     >
                         <ul className="navbar-nav">
