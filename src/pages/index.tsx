@@ -1,5 +1,13 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
+
+import Home from './Home';
 
 const Root: FC = () => {
-    return <></>
-}
+    return (
+        <>
+            <Home />
+        </>
+    );
+};
+
+export default Root;
