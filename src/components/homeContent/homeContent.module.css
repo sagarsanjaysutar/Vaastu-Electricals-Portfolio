@@ -1,0 +1,9 @@
+.introContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffb7;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100%;
+}
