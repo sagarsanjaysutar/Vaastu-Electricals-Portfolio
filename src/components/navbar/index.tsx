@@ -3,8 +3,6 @@ import BrandImg from '@/assets/img/Logo/Brand-logo/brand.png';
 import Styles from './navbar.module.css';
 
 const Navbar: FC = () => {
-    const [navbarOpen, setNavbarOpen] = useState(false);
-
     return (
         <>
             <nav
@@ -24,20 +22,18 @@ const Navbar: FC = () => {
                     <button
                         className="navbar-toggler"
                         type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
                         style={{ borderColor: 'rgba(0, 0, 0, 0)' }}
-                        onClick={() => setNavbarOpen(!navbarOpen)}
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div
-                        className={`${Styles['overlay']} ${
-                            navbarOpen
-                                ? Styles['show'] +
-                                  ' ' +
-                                  Styles['navbar-mobile-dropdown']
-                                : 'd-none'
-                        }`}
+                        className="collapse navbar-collapse justify-content-end"
                         id="navbarNavDropdown"
                     >
                         <ul className="navbar-nav">
