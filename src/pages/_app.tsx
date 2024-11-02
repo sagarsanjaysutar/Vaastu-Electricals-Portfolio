@@ -6,7 +6,8 @@
 import type { AppProps } from 'next/app';
 
 // import '@/assets/css/custom_css.css';
-import '@/styles/globals.css';
+import '@/styles/globals-desktop.css';
+import '@/styles/globals-mobile.css';
 
 export default function App({ Component, pageProps }: AppProps) {
     return (
