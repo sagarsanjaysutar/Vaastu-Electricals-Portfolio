@@ -1,17 +1,8 @@
 body {
-    background-color: black;
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: default;
-    font-display: swap;
+    font-family: 'Inter', sans-serif;
 }
 
-/*owl-carousel*/
+/* owl-carousel */
 .item {
     padding: 10px;
 }
@@ -38,9 +29,7 @@ body {
     transform: scale(1.5);
 }
 
-/*
- Common
-*/
+/* Common */
 a {
     color: #5fa9ee;
     cursor: pointer;
@@ -81,7 +70,7 @@ a {
     color: #a9a9a9;
 }
 
-/*Section 1*/
+/* Section 1 */
 
 .s1 {
     height: 100vh;
