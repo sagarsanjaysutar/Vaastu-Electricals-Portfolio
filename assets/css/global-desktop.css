@@ -30,11 +30,6 @@ body {
     transform: scale(1.5);
 }
 
-/* Bootstrap */
-/* .nav-link:hover {
-    border-bottom: 2px solid #282828;
-} */
-
 /* Common */
 a {
     color: #5fa9ee;
@@ -45,16 +40,11 @@ a {
     font-size: 2.5em;
     margin-top: 1em;
     margin-bottom: 1em;
-}
-
-.short-hr {
-    background-color: #282828;
-    width: 30%;
+    color: #323232;
 }
 
 /* Home */
 .home-container {
-    /* width: 100vw; */
     height: 100vh;
     background-image: url('../img/Background/Home-Background.webp');
     background-attachment: fixed;
@@ -109,15 +99,15 @@ a {
 }
 
 .service-card-content {
-    padding: 0.5rem;
-    /* background-color: red; */
     /* width: 100%; */
     height: 40%;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
     /* justify-content: center; */
     /* align-items: center; */
     /* text-align: center; */
+    /* background-color: red; */
 }
 
 .service-card-title {
@@ -130,7 +120,7 @@ a {
     color: #505050;
 }
 
-/*Section 3*/
+/* Projects */
 .project-container {
     min-height: 100vh;
     /*background-image: url("../img/Background/bg2.webp");
@@ -140,58 +130,118 @@ a {
     background-color: #d3d3d3;
 }
 
-.work-card {
-    width: 25rem;
+.project-card {
+    width: 22rem;
     height: 25rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: bisque;
+    /* background-color: bisque; */
     margin: 10px;
-    border-radius: 5px;
 }
 
-.work-card-img {
-    height: 70%;
+.project-card-img {
+    height: 65%;
     display: flex;
     justify-content: center;
-    background-color: green;
+    /* background-color: green; */
 }
 
-/* .work-img {
-    height: 250px;
-    max-width: 100%;
-} */
+.project-img {
+    width: 100%;
+}
 
-.work-card-content {
-    height: 30%;
+.project-card-content {
+    height: 35%;
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
-    background-color: red;
+    padding: 1rem;
+    background-color: #ffffff;
 }
 
-.work-card-title {
+.project-card-title {
     /* margin-top: 1.25rem; */
     font-size: 1.25em;
 }
 
-.work-card-text {
+.project-card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: 1em;
     color: #505050;
 }
 
 .show-more {
     margin-top: 0.8rem;
+    display: flex;
+    justify-content: end;
     color: #ac3387;
+    margin-top: auto;
+    /* background-color: #5fa9ee; */
 }
 
-.work-img1 {
-    height: auto;
-    width: 600px;
+.project-modal-dialog {
+    width: 70vw;
+    height: 80vh;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+    background-color: green;
 }
 
-.modal {
+.project-modal-content {
+    height: inherit;
+    flex-direction: column;
+    border-radius: 0px;
+    /* background-color: yellowgreen; */
+}
+
+.project-modal-carousel {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.project-modal-body {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* background-color: rgba(157, 41, 186, 0.8); */
+}
+
+.project-modal-header {
+    height: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 2;
+    /* background-color: #ac3387; */
+}
+
+.project-modal-title {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.project-modal-text {
+    font-size: 1em;
+    color: #505050;
+}
+/* .modal {
     color: #282828;
 }
 
@@ -207,7 +257,16 @@ a {
 
 .modal-text {
     margin-bottom: 1rem;
+} 
+    .modal-header,
+.modal-footer {
+    border: 0px;
 }
+
+.modal-body {
+    padding: 0px;
+    border: 0px;
+} */
 
 .client-cards {
     background-color: rgba(0, 0, 0, 0);
@@ -222,16 +281,6 @@ a {
 
 .client-cards .card-img-top {
     padding: 0%;
-}
-
-.modal-header,
-.modal-footer {
-    border: 0px;
-}
-
-.modal-body {
-    padding: 0px;
-    border: 0px;
 }
 
 .client-logo-1 {
