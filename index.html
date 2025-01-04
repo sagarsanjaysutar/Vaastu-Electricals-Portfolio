@@ -15,7 +15,7 @@
         />
         <meta
             name="keywords"
-            content="electrical, electrical contracts, electrical development, electrical panelling, electrical maintenance, electrical cabling, structure cabling, earthing, wiring, meterbox, metercabin, "
+            content="electrical, electrical contracts, electrical development, electrical panelling, electrical maintenance, electrical cabling, structure cabling, earthing, wiring, meter box & meter cabin."
         />
         <meta name="robots" content="index, follow" />
         <meta name="language" content="English" />
@@ -32,7 +32,8 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" type="text/css" href="assets/css/global-desktop.css" media="" />
+        <link rel="stylesheet" type="text/css" href="assets/css/loader.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/global-desktop.css" />
         <link
             rel="stylesheet"
             type="text/css"
@@ -60,6 +61,8 @@
                 <div></div>
             </div>
         </div>
+
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow" id="navbar1">
             <div class="container-fluid">
                 <span class="navbar-brand">
@@ -78,31 +81,47 @@
                     aria-expanded="false"
                     style="border-color: rgba(0, 0, 0, 0)"
                 >
-                    <i class="fas fa-ellipsis-v" style="font-size: 1.25em"></i>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-id">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" onclick="$('#home').animatescroll();"
-                                >Home</a
+                            <a
+                                class="nav-link active"
+                                onclick="$('#home').animatescroll(); closeNav();"
                             >
+                                Home
+                            </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" onclick="$('#services').animatescroll();"
-                                >Services</a
+                            <a
+                                class="nav-link"
+                                onclick="$('#services').animatescroll(); closeNav();"
                             >
+                                Services
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" onclick="$('#project').animatescroll();"
-                                >Projects</a
+                            <a
+                                class="nav-link"
+                                onclick="$('#project').animatescroll(); closeNav();"
                             >
+                                Projects
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" onclick="$('#about').animatescroll();">About </a>
+                            <a class="nav-link" onclick="$('#about').animatescroll(); closeNav();">
+                                About
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" onclick="$('#s4').animatescroll();">Contact</a>
+                            <a
+                                class="nav-link"
+                                onclick="$('#contact').animatescroll(); closeNav();"
+                            >
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -113,19 +132,19 @@
             <div class="row intro-container">
                 <div class="col-12">
                     <h2
-                        class="text-center text-uppercase"
+                        class="text-lg-center fw-semibold intro-text"
                         data-aos="fade-up"
                         data-aos-duration="{1000}"
                     >
-                        Delivering Reliable
-                        <span style="color: #ac3387"> ELECTRICAL SOLUTIONS </span>
+                        Delivering Reliable <br />
+                        <span style="color: #ac3387"> Electrical Solutions </span>
                     </h2>
                 </div>
             </div>
         </div>
 
         <!-- Services -->
-        <div class="services-container container-fluid" id="services">
+        <div class="services-container container" id="services">
             <div class="row" data-aos="slide-up">
                 <div class="col-12">
                     <div class="h2 text-center section-heading">Services</div>
@@ -133,7 +152,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="service-card col-lg-3 col-5" data-aos="flip-right">
+                <div class="service-card col-lg-4 col-5" data-aos="flip-right">
                     <div class="service-card-img text-center">
                         <img class="img-fluid service-card-svg" src="assets/svg/blower.svg" />
                     </div>
@@ -146,32 +165,31 @@
                     </div>
                 </div>
 
-                <div class="service-card col-lg-3 col-5" data-aos="flip-right">
+                <div class="service-card col-lg-4 col-5" data-aos="flip-right">
                     <div class="service-card-img text-center">
                         <img class="img-fluid service-card-svg" src="assets/svg/driller.svg" />
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-title">Structure Cabling</div>
                         <div class="service-card-text">
-                            We provide best in class electrical maintenance for houses, offices,
-                            shops, banks, etc.
+                            We provide reliable cabling solutions for organized connectivity.
                         </div>
                     </div>
                 </div>
 
-                <div class="service-card col-lg-3 col-5" data-aos="flip-right">
+                <div class="service-card col-lg-4 col-5" data-aos="flip-right">
                     <div class="service-card-img text-center">
                         <img class="img-fluid service-card-svg" src="assets/svg/hammer.svg" />
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-title">Panel Board</div>
                         <div class="service-card-text">
-                            Panel Board Installtions and wiring are done by our experts.
+                            Panel Board Installations and wiring are done by our experts.
                         </div>
                     </div>
                 </div>
 
-                <div class="service-card col-lg-3 col-5" data-aos="flip-right">
+                <div class="service-card col-lg-4 col-5" data-aos="flip-right">
                     <div class="service-card-img text-center">
                         <img class="img-fluid service-card-svg" src="assets/svg/wrench.svg" />
                     </div>
@@ -184,7 +202,7 @@
                     </div>
                 </div>
 
-                <div class="service-card col-lg-3 col-5" data-aos="flip-right">
+                <div class="service-card col-lg-4 col-5" data-aos="flip-right">
                     <div class="service-card-img">
                         <img class="img-fluid service-card-svg" src="assets/svg/clamp.svg" />
                     </div>
@@ -197,7 +215,7 @@
                     </div>
                 </div>
 
-                <div class="service-card col-lg-3 col-5" data-aos="flip-right">
+                <div class="service-card col-lg-4 col-5" data-aos="flip-right">
                     <div class="service-card-img text-center">
                         <img
                             class="img-fluid service-card-svg"
@@ -221,26 +239,44 @@
                     <div class="h2 text-center section-heading">Projects</div>
                 </div>
             </div>
-
-            <!-- -->
-            <div>
-                <div class="modal fade slide" id="project-modal-0" aria-hidden="false">
-                    <div class="modal-dialog project-modal-dialog">
-                        <div class="modal-content project-modal-content">
-                            <div class="project-modal-header">
-                                <button
-                                    type="button"
-                                    class="btn-close"
-                                    data-bs-dismiss="modal"
-                                    aria-label="Close"
-                                ></button>
-                            </div>
-                            <div class="project-modal-carousel">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-4 d-flex justify-content-center mb-lg-0 mb-3 p-0">
+                        <div class="project-card" data-aos="slide-up">
+                            <div class="project-card-img">
                                 <div
                                     class="carousel carousel-dark slide"
                                     id="project-carousel-0"
                                     data-bs-interval="false"
                                 >
+                                    <ol class="carousel-indicators">
+                                        <li
+                                            data-bs-target="#project-carousel-0"
+                                            data-bs-slide-to="0"
+                                            class="active"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-0"
+                                            data-bs-slide-to="1"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-0"
+                                            data-bs-slide-to="2"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-0"
+                                            data-bs-slide-to="3"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-0"
+                                            data-bs-slide-to="4"
+                                            style="font-size: 0"
+                                        ></li>
+                                    </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img
@@ -278,6 +314,7 @@
                                             />
                                         </div>
                                     </div>
+
                                     <div
                                         class="carousel-control-prev"
                                         data-bs-target="#project-carousel-0"
@@ -294,33 +331,57 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="project-modal-body">
-                                <div class="project-modal-title">Annasaheb Vartak College</div>
-                                <div class="project-modal-text">
-                                    Network cabling, panel board installation &amp; auditorium
-                                    wirings.<br />
+                            <div class="project-card-content">
+                                <div class="project-card-title">Annasaheb Vartak College</div>
+                                <div class="project-card-text mb-2">
+                                    Network cabling and panel board installation.
                                 </div>
+                                <!-- <div class="show-more">
+                                    <a data-bs-toggle="modal" data-bs-target="#project-modal-0">
+                                        <i class="fas fa-images"></i>
+                                        Find out more...
+                                    </a>
+                                </div> -->
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="modal fade slide" id="project-modal-1" aria-hidden="false">
-                    <div class="modal-dialog project-modal-dialog">
-                        <div class="modal-content project-modal-content">
-                            <div class="project-modal-header">
-                                <button
-                                    type="button"
-                                    class="btn-close"
-                                    data-bs-dismiss="modal"
-                                    aria-label="Close"
-                                ></button>
-                            </div>
-                            <div class="project-modal-carousel">
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center mb-lg-0 mb-3 p-0">
+                        <div class="project-card" data-aos="slide-up">
+                            <div class="project-card-img">
                                 <div
                                     class="carousel carousel-dark slide"
                                     id="project-carousel-1"
-                                    data-bs-ride="carousel"
+                                    data-bs-interval="0"
                                 >
+                                    <ol class="carousel-indicators">
+                                        <li
+                                            data-bs-target="#project-carousel-1"
+                                            data-bs-slide-to="0"
+                                            class="active"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-1"
+                                            data-bs-slide-to="1"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-1"
+                                            data-bs-slide-to="2"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-1"
+                                            data-bs-slide-to="3"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-1"
+                                            data-bs-slide-to="4"
+                                            style="font-size: 0"
+                                        ></li>
+                                    </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img
@@ -374,32 +435,52 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="project-modal-body">
-                                <div class="project-modal-title">Saraswati International</div>
-                                <div class="project-modal-text">
-                                    Tennis and Basket-ball court flood light installation.<br />
+                            <div class="project-card-content">
+                                <div class="project-card-title">Saraswati International</div>
+                                <div class="project-card-text">
+                                    Tennis and Basket-ball court flood light installation.
                                 </div>
+                                <!-- <div class="show-more text-right mr-3">
+                                    <a data-bs-toggle="modal" data-bs-target="#project-modal-1">
+                                        <i class="fas fa-images"></i>
+                                        Find out more...
+                                    </a>
+                                </div> -->
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="modal fade slide" id="project-modal-2" aria-hidden="false">
-                    <div class="modal-dialog project-modal-dialog">
-                        <div class="modal-content project-modal-content">
-                            <div class="project-modal-header">
-                                <button
-                                    type="button"
-                                    class="btn-close"
-                                    data-bs-dismiss="modal"
-                                    aria-label="Close"
-                                ></button>
-                            </div>
-                            <div class="modal-body project-modal-body">
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center mb-lg-0 mb-3 p-0">
+                        <div class="project-card" data-aos="slide-up">
+                            <div class="project-card-img">
                                 <div
                                     class="carousel carousel-dark slide"
                                     id="project-carousel-2"
-                                    data-bs-ride="carousel"
+                                    data-bs-interval="0"
                                 >
+                                    <ol class="carousel-indicators">
+                                        <li
+                                            data-bs-target="#project-carousel-2"
+                                            data-bs-slide-to="0"
+                                            class="active"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-2"
+                                            data-bs-slide-to="1"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-2"
+                                            data-bs-slide-to="2"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-2"
+                                            data-bs-slide-to="3"
+                                            style="font-size: 0"
+                                        ></li>
+                                    </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img
@@ -446,32 +527,52 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="project-modal-body">
-                                <div class="project-modal-title">Signet Digital Pvt. Ltd.</div>
-                                <div class="project-modal-text">
-                                    Generator Auto Transfer Switch Panel Installation.<br />
+                            <div class="project-card-content">
+                                <div class="project-card-title">Signet Digital</div>
+                                <div class="project-card-text">
+                                    Generator Auto Transfer Switch Panel Installation.
                                 </div>
+                                <!-- <div class="show-more text-right mr-3">
+                                    <a data-bs-toggle="modal" data-bs-target="#project-modal-2">
+                                        <i class="fas fa-images"></i>
+                                        Find out more...
+                                    </a>
+                                </div> -->
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="modal fade slide" id="project-modal-3" aria-hidden="false">
-                    <div class="modal-dialog project-modal-dialog">
-                        <div class="modal-content project-modal-content">
-                            <div class="project-modal-header">
-                                <button
-                                    type="button"
-                                    class="btn-close"
-                                    data-bs-dismiss="modal"
-                                    aria-label="Close"
-                                ></button>
-                            </div>
-                            <div class="modal-body project-modal-body">
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center mb-lg-0 mb-3 p-0">
+                        <div class="project-card" data-aos="slide-up">
+                            <div class="project-card-img">
                                 <div
                                     class="carousel carousel-dark slide"
                                     id="project-carousel-3"
-                                    data-bs-ride="carousel"
+                                    data-bs-interval="0"
                                 >
+                                    <ol class="carousel-indicators">
+                                        <li
+                                            data-bs-target="#project-carousel-3"
+                                            data-bs-slide-to="0"
+                                            class="active"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-3"
+                                            data-bs-slide-to="1"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-3"
+                                            data-bs-slide-to="2"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-3"
+                                            data-bs-slide-to="3"
+                                            style="font-size: 0"
+                                        ></li>
+                                    </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img
@@ -518,32 +619,52 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="project-modal-body">
-                                <div class="project-modal-title">Vasai Eye Hospital</div>
-                                <div class="project-modal-text">
-                                    Electrical panel board installation and wiring.<br />
+                            <div class="project-card-content">
+                                <div class="project-card-title">Vasai Eye Hospital</div>
+                                <div class="project-card-text">
+                                    Electrical panel board installation and wiring.
                                 </div>
+                                <!-- <div class="show-more text-right mr-3">
+                                    <a data-bs-toggle="modal" data-bs-target="#project-modal-3">
+                                        <i class="fas fa-images"></i>
+                                        Find out more...
+                                    </a>
+                                </div> -->
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="modal fade slide" id="project-modal-4" aria-hidden="false">
-                    <div class="modal-dialog project-modal-dialog">
-                        <div class="modal-content project-modal-content">
-                            <div class="project-modal-header">
-                                <button
-                                    type="button"
-                                    class="btn-close"
-                                    data-bs-dismiss="modal"
-                                    aria-label="Close"
-                                ></button>
-                            </div>
-                            <div class="modal-body project-modal-body">
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center mb-lg-0 mb-3 p-0">
+                        <div class="project-card" data-aos="slide-up">
+                            <div class="project-card-img">
                                 <div
                                     class="carousel carousel-dark slide"
                                     id="project-carousel-4"
-                                    data-bs-ride="carousel"
+                                    data-bs-interval="0"
                                 >
+                                    <ol class="carousel-indicators">
+                                        <li
+                                            data-bs-target="#project-carousel-4"
+                                            data-bs-slide-to="0"
+                                            class="active"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-4"
+                                            data-bs-slide-to="1"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-4"
+                                            data-bs-slide-to="2"
+                                            style="font-size: 0"
+                                        ></li>
+                                        <li
+                                            data-bs-target="#project-carousel-4"
+                                            data-bs-slide-to="3"
+                                            style="font-size: 0"
+                                        ></li>
+                                    </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img
@@ -590,141 +711,23 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="project-modal-body">
-                                <div class="project-modal-title">More</div>
-                                <div class="project-modal-text">Earthing and Meter Box.<br /></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-11 col-lg-4 d-flex justify-content-center mb-lg-0 mb-2 p-0">
-                        <div class="project-card">
-                            <div class="project-card-img">
-                                <img
-                                    alt="Image not available"
-                                    class="img-fluid project-img"
-                                    src="assets/img/Work/Vartak/main.webp"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div class="project-card-content">
-                                <div class="project-card-title">Annasaheb Vartak College</div>
-                                <div class="project-card-text mb-2">
-                                    Network cabling and panel board installation.
-                                </div>
-                                <div class="show-more">
-                                    <a data-bs-toggle="modal" data-bs-target="#project-modal-0">
-                                        <i class="fas fa-images"></i>
-                                        Find out more...
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-11 col-lg-4 d-flex justify-content-center mb-lg-0 mb-2 p-0">
-                        <div class="project-card">
-                            <div class="project-card-img">
-                                <img
-                                    alt="Image not available"
-                                    class="img-fluid project-img"
-                                    src="assets/img/Work/Sarasvati/main-1.webp"
-                                />
-                            </div>
-                            <div class="project-card-content">
-                                <div class="project-card-title">Saraswati International</div>
-                                <div class="project-card-text">
-                                    Tennis and Basket-ball court flood light installation.
-                                </div>
-                                <div class="show-more text-right mr-3">
-                                    <a data-bs-toggle="modal" data-bs-target="#project-modal-1">
-                                        <i class="fas fa-images"></i>
-                                        Find out more...
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-11 col-lg-4 d-flex justify-content-center mb-lg-0 mb-2 p-0">
-                        <div class="project-card">
-                            <div class="project-card-img">
-                                <img
-                                    alt="Image not available"
-                                    class="img-fluid project-img"
-                                    src="assets/img/Work/Signet/1.webp"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div class="project-card-content">
-                                <div class="project-card-title">Signet Digital</div>
-                                <div class="project-card-text">
-                                    Generator Auto Transfer Switch Panel Installation.
-                                </div>
-                                <div class="show-more text-right mr-3">
-                                    <a data-bs-toggle="modal" data-bs-target="#project-modal-2">
-                                        <i class="fas fa-images"></i>
-                                        Find out more...
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-11 col-lg-4 d-flex justify-content-center mb-lg-0 mb-2 p-0">
-                        <div class="project-card">
-                            <div class="project-card-img">
-                                <img
-                                    alt="Image not available"
-                                    class="img-fluid project-img"
-                                    src="assets/img/Work/Vasai-Eye-Hospital/main.webp"
-                                />
-                            </div>
-                            <div class="project-card-content">
-                                <div class="project-card-title">Vasai Eye Hospital</div>
-                                <div class="project-card-text">
-                                    Electrical panel board installation and wiring.
-                                </div>
-                                <div class="show-more text-right mr-3">
-                                    <a data-bs-toggle="modal" data-bs-target="#project-modal-3">
-                                        <i class="fas fa-images"></i>
-                                        Find out more...
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-11 col-lg-4 d-flex justify-content-center mb-lg-0 mb-2 p-0">
-                        <div class="project-card">
-                            <div class="project-card-img">
-                                <img
-                                    alt="Image not available"
-                                    class="img-fluid project-img"
-                                    src="assets/img/Work/HDIL/hdil.jpeg"
-                                />
-                            </div>
                             <div class="project-card-content">
                                 <div class="project-card-title">HDIL</div>
                                 <div class="project-card-text">
                                     Cabling and panel board installation.
                                 </div>
-                                <div class="show-more text-right mr-3">
+                                <!-- <div class="show-more text-right mr-3">
                                     <a data-bs-toggle="" data-bs-target="">
                                         <i class="fas fa-images"></i>
                                         Find out more...
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-11 col-lg-4 d-flex justify-content-center mb-lg-0 mb-2 p-0">
-                        <div class="project-card">
+                    <div class="col-12 col-lg-4 d-flex justify-content-center mb-lg-0 mb-3 p-0">
+                        <div class="project-card" data-aos="slide-up">
                             <div class="project-card-img">
                                 <img
                                     alt="Image not available"
@@ -737,19 +740,18 @@
                                 <div class="project-card-text">
                                     See our earthing, meter-box builds and many more works.
                                 </div>
-                                <div class="show-more text-right mr-3">
+                                <!-- <div class="show-more text-right mr-3">
                                     <a data-bs-toggle="modal" data-bs-target="#project-modal-4">
                                         <i class="fas fa-images"></i>
                                         Find out more...
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- <div class="row mt-lg-4 mb-lg-4" data-aos="slide-up">
+                <div class="row mt-lg-4 mb-lg-4" data-aos="slide-up">
                     <div class="col-12">
                         <div class="label">
                             <div class="h2 text-center section-heading" style="color: black">
@@ -758,154 +760,180 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" data-aos="slide-up">
-                    <div class="client-logo owl-carousel owl-theme">
+                <div class="row pb-5" data-aos="slide-up">
+                    <div class="client-container owl-carousel owl-theme">
                         <div class="item">
-                            <div class="card client-cards">
+                            <div class="card client-card">
                                 <div class="card-body">
-                                    <div class="project-card-img">
+                                    <div class="client-card-img">
                                         <img
                                             alt="Image not available"
-                                            src="assets/img/Logo/Client-logo/bassein.webp"
-                                            class="img-fluid client-logo-1"
+                                            src="assets/img/Logo/Client-logo/bassein.png"
+                                            class="client-card-logo"
                                         />
                                     </div>
-                                    <div class="card-title">Bassein Catholic Bank</div>
+                                    <div class="client-card-content">
+                                        <div class="client-card-title fw-semibold">
+                                            Bassein Catholic Bank
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="card client-cards">
+                            <div class="card client-card">
                                 <div class="card-body">
-                                    <div class="project-card-img">
+                                    <div class="client-card-img">
                                         <img
                                             alt="Image not available"
                                             src="assets/img/Logo/Client-logo/Instanet.webp"
-                                            class="img-fluid client-logo-1"
+                                            class="img-fluid client-card-logo"
                                         />
                                     </div>
-                                    <div class="card-title">Instanet Broadband</div>
+                                    <div class="client-card-content">
+                                        <div class="client-card-title fw-semibold">
+                                            Instanet Broadband
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="card client-cards">
+                            <div class="card client-card">
                                 <div class="card-body">
-                                    <div class="project-card-img">
+                                    <div class="client-card-img">
                                         <img
                                             alt="Image not available"
                                             src="assets/img/Logo/Client-logo/vartak.png"
-                                            class="img-fluid client-logo-1"
+                                            class="img-fluid client-card-logo"
                                         />
                                     </div>
-                                    <div class="card-title">Annasaheb Vartak College</div>
+                                    <div class="client-card-content">
+                                        <div class="client-card-title fw-semibold">
+                                            Annasaheb Vartak College
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="card client-cards">
+                            <div class="card client-card">
                                 <div class="card-body">
-                                    <div class="project-card-img">
+                                    <div class="client-card-img">
                                         <img
                                             alt="Image not available"
                                             src="assets/img/Logo/Client-logo/vasai.png"
-                                            class="img-fluid client-logo-1"
+                                            class="img-fluid client-card-logo"
                                         />
                                     </div>
-                                    <div class="card-title">Vasai Eye Hospital</div>
+                                    <div class="client-card-content">
+                                        <div class="client-card-title fw-semibold">
+                                            Vasai Eye <br />
+                                            Hospital
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="card client-cards">
+                            <div class="card client-card">
                                 <div class="card-body">
-                                    <div class="project-card-img">
+                                    <div class="client-card-img">
                                         <img
                                             alt="Image not available"
                                             src="assets/img/Logo/Client-logo/saraswati.webp"
-                                            class="img-fluid client-logo-1"
+                                            class="img-fluid client-card-logo"
                                         />
                                     </div>
-                                    <div class="card-title">Sarasvati International School</div>
+                                    <div class="client-card-content">
+                                        <div class="client-card-title fw-semibold">
+                                            Sarasvati International <br />
+                                            School
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="card client-cards">
+                            <div class="card client-card">
                                 <div class="card-body">
-                                    <div class="project-card-img">
+                                    <div class="client-card-img">
                                         <img
                                             alt="Image not available"
                                             src="assets/img/Logo/Client-logo/hdil-logo.jpg"
-                                            class="img-fluid client-logo-1"
+                                            class="img-fluid client-card-logo"
                                         />
                                     </div>
-                                    <div class="card-title">HDIL Pvt. Ltd.</div>
+                                    <div class="client-card-content">
+                                        <div class="client-card-title fw-semibold">
+                                            HDIL Pvt. Ltd.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
+            </div>
         </div>
 
-        <!-- About 
-        <div class="about-container container bg-warning" id="about">
-            <div class="row" data-aos="slide-up">
+        <!-- About -->
+        <div class="about-container container-fluid" id="about">
+            <div class="row about-section-heading" data-aos="slide-up">
                 <div class="col-12">
                     <div class="h2 text-center section-heading">About us</div>
                 </div>
             </div>
-
-            <div class="row mb-4 p-3" style="overflow-x: hidden">
-                <div class="col-12 mb-4">
-                    <div class="about-desc" data-aos="zoom-out">
-                        We, Vaastu Electrical, are in the business of electrical contracts for the
-                        past 21 years. Over the years, we have undertaken many high value clients,
-                        organizations, hospitals and colleges. Today, we take on the role of main
-                        contractor for small to medium size projects and provide electrical services
-                        to our customers.
+            <div class="container about-desc-container">
+                <div class="row">
+                    <div class="col-lg-5 align-items-center d-flex about-tagline">
+                        <div class="h2 fw-bolder" data-aos="zoom-out">
+                            Our mission - taking the best of Indian Creative Talent to the World!
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 align-items-center d-flex">
+                        <div class="about-desc" data-aos="zoom-out">
+                            We, Vaastu Electrical, are in the business of electrical contracts for
+                            the past 21 years. Over the years, we have undertaken many high value
+                            clients, organizations, hospitals and colleges. Today, we take on the
+                            role of main contractor for small to medium size projects and provide
+                            electrical services to our customers.
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-lg-4">
-                    <div class="card" data-aos="zoom-in">
+                <div class="row py-5 d-flex align-items-center justify-content-center">
+                    <div class="card about-card" data-aos="zoom-in">
                         <div class="card-body">
                             <div class="card-title text-center">
                                 <i class="fas fa-walking"></i>
                                 Started in the year
                             </div>
-                            <div class="card-text h2 text-center">2000</div>
+                            <div class="card-text h5 fw-semibold text-center">2000</div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-lg-4">
-                    <div class="card" data-aos="zoom-in">
+                    <div class="card about-card" data-aos="zoom-in">
                         <div class="card-body">
                             <div class="card-title text-center">
                                 <i class="fas fa-users"></i>
                                 Clients
                             </div>
-                            <div class="card-text h2 text-center">
+                            <div class="card-text h5 fw-semibold text-center">
                                 <span class="clients"></span>+100
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-12 col-lg-4">
-                    <div class="card" data-aos="zoom-in">
+                    <div class="card about-card" data-aos="zoom-in">
                         <div class="card-body">
                             <div class="card-title text-center">
                                 <i class="fas fa-building"></i>
                                 Projects Completed
                             </div>
-                            <div class="card-text h2 text-center">
+                            <div class="card-text h5 fw-semibold text-center">
                                 <span class="projects"></span>+100
                             </div>
                         </div>
@@ -914,54 +942,33 @@
             </div>
         </div>
 
-        <div class="s4 p-4 bg-primary" id="s4">
-            <a name="s4" id="s4"></a>
-
-            <div class="row mt-2 interchange" style="overflow-x: hidden">
-                <div class="col-12 col-md-6 col-lg-6 pr-lg-5" data-aos="slide-right">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 company-logo-container mb-2">
-                                <img
-                                    alt="Image not available"
-                                    class="img-fluid company-logo"
-                                    src="assets/img/Logo/Brand-logo/brand-1.png"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 pl-lg-5" data-aos="slide-left">
-                    <div class="h3">You can reach us on,</div>
-                    <div class="row">
-                        <div class="col-12 col-lg-7">
-                            <div class="h4 contact-btn">
-                                <button class="btn btn-outline-dark btn-md email">
-                                    <i class="far fa-envelope"></i> Email
-                                </button>
-                                <a href="tel:9325749651">
-                                    <button class="btn btn-outline-dark btn-md">
-                                        <i class="fas fa-phone-alt"></i> Call
-                                    </button>
-                                </a>
-                                <a href="https://api.whatsapp.com/send?phone=919325749651">
-                                    <button class="btn btn-outline-dark btn-md">
-                                        <i class="fab fa-whatsapp"></i> Chat
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="s6 p-4 d-flex justify-content-center align-items-center">
+        <!-- Contact -->
+        <div class="contact-container overflow-hidden" id="contact">
             <div class="row">
-                <div class="col-12 footer">© 2020 Vaastu Electrical, Inc. All rights reserved.</div>
+                <div class="col-12 col-lg-6 d-flex justify-content-lg-end justify-content-center">
+                    <img
+                        alt="Image not available"
+                        class="img-fluid company-logo"
+                        src="assets/img/Logo/Brand-logo/brand-1.png"
+                    />
+                </div>
+                <div class="col-12 col-lg-6 text-center text-lg-start">
+                    <div class="h3 pt-lg-0 pt-2">You can reach us on,</div>
+                    <div class="h4 contact-btn">
+                        <p class="text-muted fw-semibold fs-6">vaastu.electrical@gmail.com</p>
+                        <p class="text-muted fs-4">+91-9325749651</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="s8">
+
+        <div class="footer-container">
+            <div class="row py-3 text-center">
+                <div class="footer">© 2025 Vaastu Electrical, Inc. All rights reserved.</div>
+            </div>
+        </div>
+
+        <div class="author-container">
             <div
                 class="container p-3 d-flex justify-content-center align-items-center align-content-center h-100"
             >
@@ -976,13 +983,6 @@
             </div>
         </div>
 
-        <div class="scrollup mr-3" id="scrollup" data-aos="slide-up">
-            <div class="btn btn-lg bg-light" onclick='$("#home").animatescroll();'>
-                <i class="fas fa-chevron-up"></i>
-            </div>
-        </div>
-        -->
-
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -992,77 +992,36 @@
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/animatescroll.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <!-- <script src="assets/js/animationCounter.min.js"></script> -->
+        <script src="assets/js/animationCounter.min.js"></script>
 
         <script type="text/javascript">
+            // Load the font awesome library after the load for optimization.
             $(window).on('load', function () {
                 $('.loader-wrapper').fadeOut('slow');
                 $('body').append(" <script src='https://kit.fontawesome.com/d3ee46ec60.js'>");
             });
 
-            visited_section = false;
-
-            // $(window).scroll(function (event) {
-            //     if (
-            //         $(window).scrollTop() >=
-            //             $('.about-container').offset().top &&
-            //         !visited_section
-            //     ) {
-            //         $('.clients').animationCounter({
-            //             start: 0,
-            //             end: 100,
-            //             step: 1,
-            //             delay: 10,
-            //         });
-            //         $('.projects').animationCounter({
-            //             start: 0,
-            //             end: 100,
-            //             step: 1,
-            //             delay: 10,
-            //         });
-            //         visited_section = true;
-            //     }
-            // });
-
+            // Initialize the animation on scroll.
             AOS.init();
 
-            // if ($(window).width() > 480) {
-            //     document.getElementById('project-card').classList.remove('owl-carousel');
-            //     document.getElementById('project-card').classList.remove('owl-theme');
-            // }
-            // if ($(window).width() < 480) {
-            //     $('.project-card').owlCarousel({
-            //         loop: true,
-            //         margin: 10,
-            //         nav: true,
-            //         navText: [
-            //             "<i class='fa fa-chevron-left'></i>",
-            //             "<i class='fa fa-chevron-right'></i>",
-            //         ],
-            //         responsive: {
-            //             0: {
-            //                 items: 1,
-            //             },
-            //             600: {
-            //                 items: 3,
-            //             },
-            //             1000: {
-            //                 items: 5,
-            //             },
-            //         },
-            //     });
-            // }
-
-            $('.client-logo').owlCarousel({
+            // Parameters for client logo scrolling.
+            $('.client-container').owlCarousel({
                 loop: true,
                 autoplay: true,
-                margin: 10,
-                autoplayTimeout: 1000,
-                animateOut: 'fadeOut',
-                nav: false,
+                margin: 30,
+                autoWidth: true,
+                autoplayTimeout: 1500,
+                smartSpeed: 1000, // Smooth transition speed
+                dots: false,
+                // animateOut: 'slide',
+                // nav: false,
+
+                // autoplayTimeout: 0, // Continuous autoplay with no timeout
+                // autoplaySpeed: 1500, // Adjust speed of sliding (lower = faster)
+                // fluidSpeed: true,
                 responsive: {
                     0: {
-                        items: 3,
+                        items: 2,
                     },
                     600: {
                         items: 4,
@@ -1073,25 +1032,31 @@
                 },
             });
 
-            $(function () {
-                $('.email').click(function (event) {
-                    var email = 'vaastu.electrical@gmail.com';
-                    var subject = 'Quotation';
-                    var emailBody = ' ';
-                    document.location =
-                        'mailto:' + email + '?subject=' + subject + '&body=' + emailBody;
-                });
-            });
-
+            // Lazing loading for optimization.
             $('img').addClass('lazy');
+
+            // Logic to close navbar
+            function closeNav() {
+                $('#navbar-collapse-id').collapse('hide');
+            }
+
+            // Close nav when clicking outside
+            $(document).on('click', function (e) {
+                if (
+                    !$(e.target).closest('.navbar-collapse').length &&
+                    $('.navbar-collapse').hasClass('show')
+                ) {
+                    $('.navbar-collapse').collapse('hide');
+                }
+            });
         </script>
         <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <script src="/__/firebase/7.7.0/firebase-app.js"></script>
+        <!-- <script src="/__/firebase/7.7.0/firebase-app.js"></script> -->
 
         <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
         <!-- Initialize Firebase -->
-        <script src="/__/firebase/init.js"></script>
+        <!-- <script src="/__/firebase/init.js"></script> -->
     </body>
 </html>
