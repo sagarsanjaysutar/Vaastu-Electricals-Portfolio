@@ -1,0 +1,60 @@
+[
+    {
+        "projectName": "DNA",
+        "projectImages": []
+    },
+    {
+        "projectName": "HDIL",
+        "projectImages": [
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/HDIL/hdil.jpeg"
+        ]
+    },
+    {
+        "projectName": "More",
+        "projectImages": [
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/More/1.jpg",
+            "1.webp",
+            "2.jpg",
+            "2.webp"
+        ]
+    },
+    {
+        "projectName": "Sarasvati",
+        "projectImages": [
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Sarasvati/1.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Sarasvati/2.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Sarasvati/3.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Sarasvati/4.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Sarasvati/5.jpg"
+        ]
+    },
+    {
+        "projectName": "Signet",
+        "projectImages": [
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Signet/1.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Signet/2.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Signet/3.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Signet/4.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Signet/5.webp"
+        ]
+    },
+    {
+        "projectName": "Vartak",
+        "projectImages": [
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vartak/1.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vartak/2.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vartak/3.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vartak/4.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vartak/5.webp"
+        ]
+    },
+    {
+        "projectName": "Vasai-Eye-Hospital",
+        "projectImages": [
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vasai-Eye-Hospital/1.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vasai-Eye-Hospital/2.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vasai-Eye-Hospital/3.webp",
+            "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vasai-Eye-Hospital/4.webp",
+        ]
+    }
+]
