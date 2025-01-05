@@ -1,16 +1,12 @@
 [
     {
         "projectName": "DNA",
-        "projectImages": []
-    },
-    {
-        "projectName": "HDIL",
         "projectImages": [
             "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/HDIL/hdil.jpeg"
         ]
     },
     {
-        "projectName": "More",
+        "projectName": "VCPL",
         "projectImages": [
             "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/More/1.jpg",
             "1.webp",
@@ -19,7 +15,7 @@
         ]
     },
     {
-        "projectName": "Sarasvati",
+        "projectName": "Sarasvati International School",
         "projectImages": [
             "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Sarasvati/1.webp",
             "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Sarasvati/2.webp",
@@ -29,7 +25,7 @@
         ]
     },
     {
-        "projectName": "Signet",
+        "projectName": "Signet Digital",
         "projectImages": [
             "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Signet/1.webp",
             "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Signet/2.webp",
@@ -39,7 +35,7 @@
         ]
     },
     {
-        "projectName": "Vartak",
+        "projectName": "Vartak College",
         "projectImages": [
             "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vartak/1.webp",
             "https://raw.githubusercontent.com/sagarsanjaysutar/Vaastu-Electricals-Portfolio/refs/heads/v2-bootstrap-2024/assets/img/Work/Vartak/2.webp",
